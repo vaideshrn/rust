@@ -1,0 +1,3 @@
+fn main(){                           //Main function in which we can write our code
+    println!("Hello World!");        //telling the compiler to print the line hello world!, ; -> end of a command
+}
