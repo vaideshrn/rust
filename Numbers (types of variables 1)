@@ -1,0 +1,32 @@
+fn main(){
+    let x:i8=-128; //signed 8 bit int
+    let y:u8=128;  //unsigned 8 bit int
+    let z:u8=255;
+    let a:f32=9.88;//32 bit float num
+    let b:i32=26;  //signed 32 bit int
+    println!("{y}");
+    println!("x{}, y{}, z{}, a{}, b{}", x, y, z, a, b);
+}
+//                  Numbers
+//                     |
+//       --------------------------------
+//       |                               |
+//     Integer                         Float
+//       |                             ->f32: a number with decimal number like 9.88, with 32 bits space
+// -------------                       ->f64: same as f32 but with 64 bits of space
+// |           |
+//signed       unsigned
+//
+//
+//signed: consists of negative num
+//->i8: an integer with 8 bits of space and with both (+)ve and (-)ve num, range of num: -128 to 127
+//->i16: same as i8 but with 16 bits of space
+//->i32: same as i8 but with 32 bits of space
+//->i64: same as i8 but with 64 bits of space
+//
+//
+//unsigned: consists of only positive num and 0
+//->u8: a number with 8 bits of data but can only have whole numbers, range of num: 0 to 255
+//->u16: same as u8 but with 16 bits space
+//->u32: same as u8 but with 32 bits space
+//->u64: same as u8 but with 64 bits space
